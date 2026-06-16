@@ -1,1 +1,25 @@
 /* css styles */
+
+
+.button {
+  background-color: #898f89; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  font-size: 16px; /* Tamanho da fonte */
+  font-weight: bold; /* Negrito */
+  padding: 12px 24px; /* Espaçamento interno (cima/baixo e esquerda/direita) */
+  border: none; /* Remove a borda padrão */
+  border-radius: 8px; /* Cantos arredondados */
+  cursor: pointer; /* Altera o cursor para o ícone de 'mãozinha' */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Animação suave */
+}
+
+/* Efeito ao passar o mouse (hover) */
+.button:hover {
+  background-color: #414141; /* Fundo um pouco mais escuro */
+  transform: translateY(-2px); /* Levanta o botão levemente */
+}
+
+/* Efeito ao clicar no botão (active) */
+.button:active {
+  transform: translateY(0); /* Volta para a posição original */
+}
